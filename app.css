@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(12, 12, 12);
+    box-sizing: border-box;
+  }
+/* start header */
+  .heder {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(51, 50, 50);
+  }
+
+ 
+
+  .LOGO img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+
+  a:hover {
+    color: rgb(189, 187, 187);
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .header-log-sin {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .login button {
+    height: 34px;
+    width: 75px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: 0.5s;
+  }
+  .login button:hover {
+    background-color: rgb(128, 128, 128);
+
+  }
+  #login_btn button{
+    background-color:  rgb(175, 175, 175);
+  }
+  #login_btn button:hover{
+    background-color: black;
+  }
+
+  /* start main content */
+
+  h2 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .video1 iframe{
+    height: 270px;
+    width: 500px;
+    background-repeat: no-repeat;
+  }
+
+  .video_list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+  }
+
+  .p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  h5 {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+  }
+  h3 {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .input_fild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .search_content{
+    height: 50px;
+    width: 65vh;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid rgb(68, 66, 66);
+    display: flex;
+    align-items: center;
+  }
+  .search_fild{
+    height: 100%;
+    width: 90%;
+    font-size: 17px;
+    border: 1px solid rgb(68, 66, 66);
+  }
+  .icon_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+  }
+  .search_content i{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(136, 136, 136);
+  }
+  .Learn-trading {
+    margin: 40px;
+  }
+  .basic_of_trading {
+    margin-top: 40px;
+  }
+  .emty1 {
+    outline: 1px solid rgb(80, 80, 80);
+    margin-top: 20px;
+    margin-left: 35vw;
+    width: 30%;
+    align-items: center;
+  }
+  .button {
+    height: 40px;
+    width: 100px;
+    background-color: hotpink;
+    color: black;
+    border-radius: 10px;
+    margin: 30px;
+    font-weight: 800;
+  }
+  /* start footer */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+    border-top:  2px solid rgb(51, 50, 50);
+  }
+  .footer_lnik1 {
+    margin-top: 50px;
+  }
+  .footer_lnik1 p {
+    margin-top: 10px;
+  }
+  .footer_inline_border{
+    height: 150px;
+    border: 1px solid rgb(81, 78, 78);
+    margin-top: 50px;
+  }
